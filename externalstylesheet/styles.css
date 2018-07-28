@@ -1,0 +1,21 @@
+body{
+    /* Remove unnecessary white space in body background .*/
+    padding:0;
+    margin:0;
+}
+header{
+    background-color: green;
+    padding:20px;
+    color:white;
+}
+
+/*Media queries are a technique for developing responsive web design
+  to desktops, laptops, tablets, and mobile phones.*/
+/* Media query uses breakpoints where certain parts of the page/ design
+   behave differently on each side of the break point.*/
+    
+@media only screen and (max-width: 450px) {
+   header {
+        background-color: blue;
+    }
+}
